@@ -49,6 +49,17 @@ use OpenApi\Attributes as OA;
  *     @OA\Property(property="password", type="string", example="password123"),
  * )
  * 
+ * 
+ * 
+ * @OA\Schema(
+ *     schema="Payment",
+ *     required={"id", "method", "number_id"},
+ *    @OA\Property(property="id", type="integer", example=1),
+ *    @OA\Property(property="method", type="string", example="Credit Card"),
+ *    @OA\Property(property="number_id", type="string", example="1234567890"),
+ * )
+ *
+ * 
  */
 
  
