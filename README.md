@@ -1,5 +1,7 @@
 # BuzzzHub Marketplace
 
+![Screenshot 2024-09-04 210109](https://github.com/user-attachments/assets/403ee2db-a8ab-4857-b382-be1e1533bc3a)
+<br>
 
 BuzzHub Marketplace is a web application platform for buying and selling digital products. We believe that creating and selling digital products should be an enjoyable and rewarding experience. BuzzHub Marketplace takes the hassle out of e-commerce by providing a user-friendly interface and powerful tools for creators and buyers alike, including:
 
