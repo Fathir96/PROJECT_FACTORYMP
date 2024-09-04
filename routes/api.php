@@ -9,6 +9,8 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\VoucherController;
+use App\Http\Controllers\DeliveryController;
+
 
 
 Route::post('/login', [UserController::class, 'login']);
@@ -21,6 +23,7 @@ Route::middleware(['auth:sanctum', 'LogRequestMiddleware'])->group(function(){
     Route::apiResource('/brands', BrandController::class);
     Route::apiResource('/payments', PaymentController::class);
     Route::apiResource('/vouchers', VoucherController::class);
+    Route::apiResource('deliveries', DeliveryController::class);
     Route::post('/logout', [UserController::class, 'logout']);
 });
 
