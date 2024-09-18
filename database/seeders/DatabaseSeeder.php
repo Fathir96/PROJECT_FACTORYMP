@@ -10,6 +10,7 @@ use Database\Seeders\ProductsTableSeeder;
 use Database\Seeders\StoreSeeder;
 use Database\Seeders\CategorySeeder;
 use Database\Seeders\BrandSeeder;
+use Database\Seeders\OrderSeeder;   
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -24,10 +25,11 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call([
-            StoreSeeder::class,
-            ProductsTableSeeder::class,
-            CategorySeeder::class,
-            BrandSeeder::class,
+            // StoreSeeder::class,
+            // ProductsTableSeeder::class,
+            // CategorySeeder::class,
+            // BrandSeeder::class,
+            OrderSeeder::class,
         ]); 
     }
 }

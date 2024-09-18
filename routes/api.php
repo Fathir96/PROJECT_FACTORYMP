@@ -10,6 +10,7 @@ use App\Http\Controllers\BrandController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\VoucherController;
 use App\Http\Controllers\DeliveryController;
+use App\Http\Controllers\OrderController;
 
 
 
@@ -24,6 +25,7 @@ Route::middleware(['auth:sanctum', 'LogRequestMiddleware'])->group(function(){
     Route::apiResource('/payments', PaymentController::class);
     Route::apiResource('/vouchers', VoucherController::class);
     Route::apiResource('deliveries', DeliveryController::class);
+    Route::apiResource('orders', OrderController::class);
     Route::post('/logout', [UserController::class, 'logout']);
 });
 
